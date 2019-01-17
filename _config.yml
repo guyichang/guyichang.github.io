@@ -71,7 +71,6 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
-
         repository: mzlogin/mzlogin.github.io
 
 # ---------------- #
