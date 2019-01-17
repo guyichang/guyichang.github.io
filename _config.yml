@@ -4,23 +4,21 @@
 baseurl:
 url: https://guyichang.github.io
 date_format: "ordinal"
-title: Guyichang
-subtitle: "代码改变人生"
-description: "Gu的个人博客"
-keywords: Gu, Yi chang
-timezone: Asia/Guangzhou
+title: guyichang
+description: "Love Program, Love Life."
+timezone: asia/guangzhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: guyichang
+organization: MAXHUB
+organization_url: https://www.maxhub.vip/
+github_username: guyichang
+location: guangzhou, china
+email: guyichang@gmail.com
 
 # ---------------- #
 #    Navigation    #
