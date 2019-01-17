@@ -1,12 +1,9 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
 url: https://guyichang.github.io
-date_format: "ordinal"
-title: guyichang
-description: "Love Program, Love Life."
-timezone: asia/guangzhou
+title: 古意昌
+subtitle: "Love Program, Love Life."
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -17,7 +14,7 @@ author: guyichang
 organization: MAXHUB
 organization_url: https://www.maxhub.vip/
 github_username: guyichang
-location: guangzhou, china
+location: Guangzhou, China
 email: guyichang@gmail.com
 
 # ---------------- #
@@ -31,10 +28,6 @@ navs:
   -
     href: /categories/
     label: 分类
-
-#   -
-#     href: /archives/
-#     label: 归档
 
   -
     href: /wiki/
@@ -68,51 +61,37 @@ permalink: /:year/:month/:day/:title/
 gems:
     - jekyll-github-metadata
     - rouge
-#     - jekyll-html-pipeline
+#   - jekyll-html-pipeline
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
     - jemoji
-#     - jekyll-mentions
+#   - jekyll-mentions
 collections:
     wiki:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+        repository: mzlogin/mzlogin.github.io
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
 comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: mzlogin
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
+    clientID: 40662824c0c3c962fbed
+    clientSecret: b194392e3ca12cf6cd4216fc27b5d1d4127fef31
 
 # ---------------- #
 #      Search      #
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
